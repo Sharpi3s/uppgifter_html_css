@@ -1,5 +1,6 @@
 .cta-bg {
     background-image: url(../images/Bg_cta.png);
+    background-size: cover;
     height: 12rem;
     display: flex;
     justify-content: space-around;
@@ -33,6 +34,6 @@
     .cta-bg {
         height: 8rem;
         margin-bottom: 5rem;
-        h3 {color: #ffffff; width: 60vw;}
+        h3 {color: #ffffff; width: 48vw;}
     }
 }

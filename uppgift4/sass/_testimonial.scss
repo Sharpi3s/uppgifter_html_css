@@ -154,23 +154,31 @@
         }
     
         .t-text {
-            width: 80vw;
-            left: 1rem;
-            top: 0rem;
+            width: 70vw;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: auto;
+            text-align: center;
+            
+
+            h2 {width: 70vw;}
+            p {width: 70vw;}
         }
     }
     
     #dots {
         left: 2rem;
+        bottom: 2rem;
         height: 5rem;
     }
 
     .swiper1 {
         position: absolute;
         right: 1rem;
-        bottom: 1vh;
+        bottom: 2rem;
         width: 18rem;
-        height: 10rem;
+        height: 10.5rem;
     }
     
     .slide-1 {

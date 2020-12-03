@@ -2,7 +2,7 @@
 @import "header-content";  
 
 header {
-    background-image: url(../images/bg_gray_2.png);
+    background-image: url(/images/bg_gray_2.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -11,7 +11,7 @@ header {
 }
 
 #bg-shape {
-    height: 80vh;
+    height: 90vh;
     position: absolute;
     right: 0;
     top: 10vh;
@@ -19,15 +19,15 @@ header {
 
 #img-placeholder {
     position: absolute;
-    height: 60vh;
-    right: 0;
+    height: 70vh;
+    right: -1.8rem;
     top: 15vh;
 }
 
 .btn-play {
     position: absolute;
-    right: 28vw;
-    bottom: 30vh;
+    right: 24vw;
+    bottom: 20vh;
     border: none;
     border-radius: 50%;
     height: 3.5rem;

@@ -1,27 +1,28 @@
 #process-flow {
     position: relative;
-    height: 100vh;
+    height: 70rem;
     padding-top: 10vh;
 }
 
 #p-img1 {
     position: absolute;
-    height: 80vh;
+    top: 9rem;
+    height: 50rem;
 }
 
 #p-img2 {
     position: absolute;
-    height: 60vh;
-    top: 10vh;
-    left: 5vw;
+    height: 36rem;
+    top: 13rem;
+    left: 4rem;
 }
 
 .p-content {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    h2              {width: 22vw; margin-bottom: 3rem;}
-    .p-grid-item    {width: 22vw;}
+    h2              {width: 28vw; margin-bottom: 3rem;}
+    .p-grid-item    {width: 28vw;}
 }
 
 .p-grid-item {

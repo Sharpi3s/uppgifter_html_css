@@ -1,0 +1,548 @@
+/* header start */
+header {
+    height: 60rem;
+    overflow: hidden;
+}
+
+.header-content {
+    background-image: url(../images/bg_blue_mobile.png);
+    height: 35rem;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+/* menu start */
+.menu-desktop {
+    display: none;
+}
+
+.logo {
+    height: 3rem;
+}
+
+#JOOD {
+    font-family: 'Poppins' !important;
+}
+/* menu stop */
+
+/* content start */
+
+.showcase {
+    height: 95vh;
+}
+
+.showcase-content {
+    height: 40vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem; 
+}
+
+.showcase-content > p {
+    color: #fff !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.download {
+    flex-direction: row;
+    gap: 1.5rem;
+    color: white;
+}
+
+.button2 > a {
+    color: white;
+    font-weight: 500;  
+    font-size: 12pt;
+}
+
+.button2 {
+    background-color: transparent;
+    border: 3px solid #fff;
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 12px;
+    transition: background-color 0.5s ease-out;
+    }
+
+.button2:hover {
+    background-color: #FFBB00; 
+    border: 3px solid transparent;
+    transition: 0.4s ease-in-out;
+}
+
+.watch-link {
+    gap: 1.2rem;
+    text-align: center;
+    height: 2.5rem;
+    padding-right: 0.5em;
+    background-color: transparent;
+    border-radius: 45px;
+    box-shadow: 0 0 8px 2px transparent;
+    transition: 0.5s ease-in-out !important;
+}
+
+.watch-link:hover {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.129);
+    border-radius: 45px;
+    box-shadow: 0 0 8px 2px rgba(255, 255, 255, 0.32);
+}
+
+.watch-link:hover > #play-text {
+    margin-left: -0.8rem !important;
+    color: white;
+    text-shadow: 2px 2px 4px #0000002c;
+    transition: 0.8s ease !important;
+}
+
+#play-icon {
+    height: 2.5rem;
+} 
+
+#play-text {
+    color: #fff;
+    font-size: 11pt;
+    font-weight: 500;
+    transition: 0.6s ease-out;
+    margin: auto;
+}
+/* content stop */
+
+
+.showcase-img {
+    margin: auto;
+    height: 22rem;
+    width: 16rem;
+    position: relative;
+    
+}
+
+#iphone1 {
+    height: 18rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(100vw);
+    animation: phone-slide1 1.5s linear;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+}
+
+#iphone1-1 {
+    height: 18rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(100vw);
+    animation: phone-slide2 1.5s linear;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+@keyframes phone-slide1 {
+    0% {transform: rotate(-20deg) translate(100vw);}
+    50% {transform: scale(0.8) rotate(10deg) translate(50vw);}
+    100% {transform: translate(0%);}
+  }
+@keyframes phone-slide2 {
+    0% {transform: rotate(-20deg) translate(100vw, -50%);}
+    50% {transform: scale(0.8) rotate(30deg) translate(50vw, -50%);}
+    100% {transform: translate(0%);}
+  }
+
+
+/* ec start */
+.ec {
+    position: relative;
+    width: 100%;
+    height: 20vw;
+}
+
+.ec-logo-img1:first-child, .ec-logo-img1:last-child {
+    display: none;
+}
+
+.ec-logo-img:first-child, .ec-logo-img:last-child {
+    display: none;
+}
+
+.ec-logo {
+    height: 20vw;
+    width: 100%;
+    position: absolute;
+    justify-content: space-between;
+    padding: 10vw;
+    overflow: hidden;
+}
+
+.ec-logo-img {
+    height: 1rem;
+    position: relative;
+    animation-name: slide-around;
+    animation-duration: 10s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+}
+  
+@keyframes slide-around {
+    0% { left: -100vw; }
+    100% { left: 100vw; }
+}
+
+.ec-logo1 {
+    height: 20vw;
+    width: 100%;
+    position: absolute;
+    justify-content: space-between;
+    padding: 10vw;
+    overflow: hidden;
+}
+.ec-logo-img1 {
+    height: 1rem;
+    position: relative;
+    animation-name: slide-around2;
+    animation-duration: 10s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 5s; 
+}
+  
+@keyframes slide-around2 {
+    0% { left: -100vw; }
+    100% { left: 100vw; }
+}
+/* ec stop */
+
+
+
+@media (min-width: 768px) {
+    header {
+        height: 48rem;
+    }
+
+    .header-content {
+        background-image: url(../images/bg_blue_tablet2.png);
+        height: 38rem;
+        width: 100%;
+    }
+
+    .logo {
+        height: 4rem;
+    }
+      
+    .showcase-content {
+        width: 50vw;
+    }
+
+    .showcase-content > h1 {
+        font-size: 26pt;
+        font-weight: 700;
+    }
+
+    .showcase-content > p {
+        width: 23rem;
+    }
+
+    .showcase {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 33rem;
+    }
+
+    .ec-logo-img1:first-child {
+        display: flex;
+    }
+    
+    .ec-logo-img:first-child{
+        display: flex;
+    }
+
+    .ec-logo {
+        height: 10rem;
+        width: 100%;
+        position: absolute;
+        justify-content: space-between;
+        padding: 10vw;
+        overflow: hidden;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    header {
+    height: 55rem;    
+    }
+
+    .header-content {
+    height: 50rem;
+    }
+    
+    .logo {
+        height: 4rem;
+    }
+
+    .showcase-content > h1 {
+        font-size: 32pt;
+        font-weight: 700;
+    }
+
+    .showcase-content > p {
+        width: 28rem;
+    }
+
+    .showcase {
+        height: 40rem;
+    }
+
+    .button2 > a {
+        font-size: 14pt;
+    }
+    
+    .button2 {
+        padding: 5px 25px;
+
+        }
+    
+    .watch-link {
+        gap: 1.2rem;
+        height: 3.2rem;
+        padding-right: 0.5em;
+    }
+    
+    #play-icon {
+        height: 2.5rem;
+    } 
+    
+    #play-text {
+        font-size: 14pt !important;
+    }
+
+    .showcase-img {
+        margin: auto;
+        height: 45vw;
+        width: 35vw;
+    }
+
+    #iphone1 {
+        height: 40vw;
+    }
+
+    #iphone1-1 {
+        height: 40vw;
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+    /* header start */
+    header {
+        height: 120vh;
+        
+    }
+    
+    .header-content {
+        background-image: url(../images/blue_backgrund_crop.png);
+        background-size: cover;
+        background-position: center center;
+        background-position-y: -4rem;
+        height: 100vh;
+    }
+
+    /* menu start */
+    .logo {
+        height: 3.5rem;
+    }
+    
+    .menu-wrap {
+        display: none;
+    }
+    
+    .menu {
+        height: 8rem;
+        align-items: center;
+        padding: 0;
+    }
+
+    .menu-desktop {
+        display: flex;
+        align-items: center;
+        height: inherit;
+    }
+
+    .menu-list{
+        flex-direction: row;
+        margin: 0;
+        gap: 2rem;
+    }
+
+    .menu-list-a {
+        font-size: 14pt;
+        font-weight: 500;
+        color: #ffffff;
+    }
+    
+    .menu-list-a:hover {
+        color: #FFBB00 !important;
+    }
+    
+    #active1 {
+        color: #FFBB00 !important;
+        content: "";
+        display: block;
+        width: 70%;
+        border-bottom: 3px solid #FFBB00; 
+    }
+    
+    .button1 > a {
+        color: white;
+        font-weight: 500;  
+        font-size: 12pt;
+    }
+    
+    .button1 {
+        background-color: #FFBB00; 
+        border: 3px solid transparent;
+        padding: 5px 30px;
+        text-align: center;
+        border-radius: 12px;
+        transition: background-color 0.4s ease-in-out;
+    }
+    
+    .button1:hover {
+        background-color: transparent;
+        border: 3px solid #fff;
+    }
+    /* menu stop */
+    /* content showcase start */
+
+    .showcase {
+        height: 85vh;
+        padding-top: 5vh;
+    }
+
+    .showcase-content {
+        height: 85vh;
+        gap: 2rem;
+        margin-top: -10vh;
+    }
+
+    .showcase-content > h1 {
+        font-size: 3vw !important;
+        margin: 0;
+        font-weight: 700;
+    }
+
+    .showcase-content > p {
+        width: 32vw;
+    }
+
+    .button2 > a {
+        font-size: 16pt;
+    }
+    
+    .button2 {
+        padding: 10px 25px;
+        }
+    
+    .watch-link {
+        gap: 1.2rem;
+        height: 3rem;
+        padding-right: 0.5em;
+    }
+    
+    #play-icon {
+        height: 3rem;
+    } 
+    
+    #play-text {
+        font-size: 16pt !important;
+    }
+
+    .showcase-img {
+        margin: auto;
+        height: 40vw;
+        width: 30vw;
+    }
+
+    #iphone1 {
+        height: 35vw;
+    }
+
+    #iphone1-1 {
+        height: 35vw;
+    }
+
+    /* content showcase stop */
+    .ec-logo-img1:first-child, .ec-logo-img1:last-child {
+        display: flex;
+    }
+    
+    .ec-logo-img:first-child, .ec-logo-img:last-child {
+        display: flex;
+    }
+    
+    .ec {
+        position: relative;
+        width: 100%;
+        height: 15vw;
+    }
+
+    .ec-logo {
+        height: 20vw;
+        width: 100%;
+        position: absolute;
+        justify-content: space-between;
+        padding: 5vw;
+        overflow: hidden;
+
+    }
+    .ec-logo-img {
+        height: 1.5rem;
+        position: relative;
+        animation-name: slide-around;
+        animation-duration: 20s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+    }
+      
+    @keyframes slide-around {
+        0% { left: -100vw; }
+        100% { left: 100vw; }
+    }
+
+    .ec-logo1 {
+        height: 20vw;
+        width: 100%;
+        position: absolute;
+        justify-content: space-between;
+        padding: 5vw;
+        overflow: hidden;
+    }
+    .ec-logo-img1 {
+        height: 1.5rem;
+        position: relative;
+        animation-name: slide-around2;
+        animation-duration: 20s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-delay: 10s; 
+    }
+      
+    @keyframes slide-around2 {
+        0% { left: -100vw; }
+        100% { left: 100vw; }
+    }
+
+}
+

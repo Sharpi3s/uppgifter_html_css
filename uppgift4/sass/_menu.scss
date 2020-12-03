@@ -1,0 +1,29 @@
+.navbar {
+    box-shadow: none;
+    border-bottom: 1px solid #57647c42;
+    height: 5rem;
+}
+
+.navbar-brand > img {
+    height: 2rem;
+}
+
+.nav-link {
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: #FF6803 !important;
+}
+
+.fas {
+    font-size: 14pt!important;
+}
+
+.btn {
+    border-radius: 6px;
+    border: 1px solid #FF6803;
+    background-color: transparent !important;
+    font-weight: 700;
+    font-size: 10pt !important;
+}

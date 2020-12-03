@@ -1,0 +1,167 @@
+.banner {
+    background-image: url(../images/Bg_download.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    overflow: hidden;
+}
+
+.banner-content {
+    height: inherit;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+}
+
+.banner-text {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 10vw;
+}
+
+.banner-text > h2, .banner-text > p {
+    color: #fff;
+    margin: 0;
+}
+
+.banner-text > .about-us-apps {
+    justify-content: center;
+}
+
+.phones {
+    position: relative;
+    height: 15rem;
+    width: 18rem;
+}
+
+#iphone-f {
+    position: absolute;
+    height: 15rem;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.slide1 {
+    position: absolute;
+    height: 13rem;
+    bottom: 0;
+    left: 0;
+    transform: translate(50%);
+    transition: 0.5s ease-in;
+}
+
+.slide1.slide-in1 {
+    transform: translate(0%);
+}
+
+.slide2 {
+    position: absolute;
+    height: 13rem;
+    bottom: 0;
+    right: 0;
+    transform: translate(-50%);
+    transition: 0.5s ease-in;
+}
+
+.slide2.slide-in2 {
+    transform: translate(0%);
+}
+
+
+@media (min-width: 768px) {
+
+    .banner-text {
+        flex-direction: column;
+        text-align: center;
+        width: 80vw;
+    }
+    
+    .banner-text {
+        margin-top: 5vw;
+    }
+    
+}
+@media (min-width: 1024px) {
+
+    .banner-text {
+        width: 60vw;
+    }
+    
+}
+
+
+@media (min-width:1200px) {
+
+    .banner {
+        height: 65vh;
+    }
+
+    .banner-content {
+        height: inherit;
+        flex-direction: row;
+        position: relative;
+        justify-content: space-between;
+    }
+    
+    .banner-text {
+        flex-direction: column;
+        gap: 3rem;
+        text-align: left;
+        margin-top: 0;
+        width: 40vw;
+    }
+
+    .banner-text > p {
+        width: 33vw;
+    }
+
+    .banner-text > .about-us-apps {
+        justify-content: flex-start;
+    }
+    
+    
+    .phones {
+        position: relative;
+        height: inherit;
+        width: 25vw;
+    }
+    
+    #iphone-f {
+        position: absolute;
+        height: 45vh;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .slide1 {
+        position: absolute;
+        height: 40vh;
+        bottom: 0;
+        left: 0;
+        transform: translate(50%);
+        transition: 2s ease-in;
+    }
+
+    .slide1.slide-in1 {
+        transform: translate(0%);
+    }
+    
+    .slide2 {
+        position: absolute;
+        height: 40vh;
+        bottom: 0;
+        right: 0;
+        transform: translate(-50%);
+        transition: 2s ease-in;
+    }
+
+    .slide2.slide-in2 {
+        transform: translate(0%);
+    }
+
+
+}

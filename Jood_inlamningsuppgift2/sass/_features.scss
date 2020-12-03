@@ -1,0 +1,233 @@
+.features {
+    height: 75rem;
+    width: 100%;
+    background-color: #f5f5f550;
+    position: relative;
+}
+
+#dotts {
+    position: absolute;
+}
+
+.features-content-img-text {
+    flex-direction: column;
+    
+}
+
+.features-content-text {
+    flex-direction: column;
+    gap: 1.5rem;
+    position: relative;
+}
+
+.features-content-b-h1-p {
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.features-content-icons {
+    display: grid;
+    gap: 2.5rem;
+}
+
+.icons {
+    align-items: center;
+    gap: 1rem;
+    width: 18rem;
+}
+
+.icon-bg {
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    width: 5rem;
+    background-color: #ffbb0024;
+    border-radius: 8px;
+    margin: 0.5rem;
+}
+
+.icons-bg > img {
+    height: 2em;
+}
+
+.f-1 {
+    font-size: 16pt; 
+    font-weight: 700; 
+    color: #333333 !important;
+    line-height: 1.5 !important;
+}
+
+.f-2 {
+    font-size: 11pt; 
+    font-weight: 300; 
+    color: #8A8A8A !important;
+    line-height: 1.5 !important;
+}
+
+.features-iphones {
+    position: relative;
+    height: 20rem;
+    width: 100%;
+}
+
+#bg-yb {
+    position: absolute;
+    height: 12rem;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+}
+
+#iphone-back {
+    position: absolute;
+    height: 13rem;
+    left: 46%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    animation: rotate2 5s infinite ease-in-out;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+}
+
+#iphone-front {
+    position: absolute;
+    height: 15rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@keyframes rotate2 {
+    0% {transform: rotate(-0deg) translate(-50%, -40%);}
+    25% {transform: rotate(-15deg) translate(-50%, -45%);}
+    50% {transform: rotate(-30deg) translate(-50%, -50%);}
+    75% {transform: rotate(-15deg) translate(-50%, -45%);}
+    100% {transform: rotate(-0deg) translate(-50%, -40%);}
+}
+
+
+    @media (min-width: 768px) {
+
+        .features {
+            height: 65rem;
+        }
+
+        .features-content-img-text {
+            gap: 3rem;
+        }
+
+        .features-content-text {
+            gap: 3rem;
+        }
+
+        .features-content-b-h1-p {
+            gap: 2rem;
+        }
+        
+        .features-content-icons {
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .features-iphones {
+            height: 22rem;
+            width: 26rem;
+        }
+        
+        #bg-yb {
+            height: 17rem;
+        }
+        
+        #iphone-back {
+            height: 18rem;
+        }
+        
+        #iphone-front {
+            height: 20rem;
+        }
+        
+        @keyframes rotate2 {
+            0% {transform: rotate(-0deg) translate(-50%, -40%);}
+            25% {transform: rotate(-15deg) translate(-50%, -45%);}
+            50% {transform: rotate(-30deg) translate(-50%, -55%);}
+            75% {transform: rotate(-15deg) translate(-50%, -45%);}
+            100% {transform: rotate(-0deg) translate(-50%, -40%);}
+          }
+    }
+
+    @media (min-width: 1024px) {
+
+        .features-content-text  {
+            width: 70vw;
+        }
+    }
+
+
+    @media (min-width: 1200px) {
+
+        .features {
+            height: 50rem;
+        }
+
+        .features-content-img-text {
+            flex-direction: row;
+        }
+
+        .features-content-text  {
+            width: 40vw;
+            gap: 1.5rem;
+        }
+
+        .features-content-b-h1-p {
+            gap: 1rem;
+            width: 32vw;
+        }
+
+        .features-content-icons {
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        .icons {
+            line-height: 1 !important;
+            width: 19vw;
+        }
+
+        .f-1 {
+            font-size: 18pt; 
+        }
+        
+        .f-2 {
+            font-size: 12pt; 
+            font-weight: 300; 
+            color: #8A8A8A !important;
+            line-height: 1.5 !important;
+        }
+
+        .features-iphones {
+            height: 60vh;
+            width: 65vh;
+            margin-right: -10vw;
+        }
+        
+        #bg-yb {
+            height: 40vh;
+        }
+        
+        #iphone-back {
+            height: 43vh;
+        }
+        
+        #iphone-front {
+            height: 48vh;
+        }
+        
+        
+        @keyframes rotate2 {
+            0% {transform: rotate(-0deg) translate(-45%, -40%);}
+            25% {transform: rotate(-15deg) translate(-45%, -45%);}
+            50% {transform: rotate(-30deg) translate(-45%, -55%);}
+            75% {transform: rotate(-15deg) translate(-45%, -45%);}
+            100% {transform: rotate(-0deg) translate(-45%, -40%);}
+          }
+    }

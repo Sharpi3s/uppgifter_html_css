@@ -1,0 +1,66 @@
+#testimonial {
+    position: relative;
+    height: 70vh;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+
+    #t-img-holder {
+        position: absolute;
+    }
+
+    .t-text {
+        position: absolute;
+        width: 22vw;
+        right: 0;
+        top: 5vh;
+    }
+}
+
+#dots {
+    position: absolute;
+    left: 20vw;
+    bottom: -1rem;
+}
+
+.swiper1 {
+    position: absolute;
+    right: 5vw;
+    bottom: 1vh;
+    width: 32vw;
+    height: 20rem;
+    display: flex;
+    background-image: url(/images/orange_bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.slide-1 {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+   
+}
+
+.swp1{
+    position: absolute;
+    width: 10vw !important;
+    margin-left: 11vw;
+    z-index: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #ff6803bb !important;
+  }
+
+.t-1 {
+    color: #ffffff;
+}
+.t-2 {
+    color: #ffffff;
+}
+.t-3 {
+    color: #ffffff;
+    font-style: italic;
+}

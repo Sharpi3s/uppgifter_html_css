@@ -1,0 +1,40 @@
+#blog {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    
+}
+
+.blog-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    h2  {width: 30vw; margin-bottom: 3vh;}
+    p   {width: 23vw; margin-bottom: 5vh;}
+}
+
+
+.swiper2 {
+    width: 100%;
+    height: 36rem;
+    margin-right: 1rem;
+}
+
+.slide-2 {
+    width: 10rem;
+    height: 33rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 3px 6px #8586873d; 
+}
+
+.card-content {
+    padding: 1rem;
+    h6      {color: #FF6803;}
+    h5      {margin-bottom: 1rem;}
+    button  {display: flex; justify-self: flex-start; align-self: flex-start; margin-top: 0.5rem;}
+}
+
+

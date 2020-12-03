@@ -1,0 +1,42 @@
+#countdown {
+    height: 75vh;
+}
+
+.c-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h2  {width: 40vw; margin-bottom: 2rem;}
+    p   {width: 25vw; margin-bottom: 2rem;}
+}
+
+.c-content {
+    position: relative;
+
+    #img-map {position: absolute; right: 0; left: 0; margin: auto;}
+}
+
+.c-flex-item {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    .c-numbers {color: #F23779 !important; font-size: 34pt; font-weight: 700; font-family: 'Poppins';}
+}
+
+.c-grid {
+    position: relative;
+    width: 40vw;
+    margin: auto;
+    padding: 3rem;
+    border-radius: 8px;
+    background-color: #ffffff !important;
+    box-shadow: 2px 3px 8px #00000042;
+    display: grid;
+    grid-template-areas:    "a c"
+                            "b c";
+
+    .c-1 {grid-area: a; font-family: 'Poppins';}
+    .c-2 {grid-area: b;}
+    .c-3 {grid-area: c; display: flex; justify-self: center; align-self: center;}
+}

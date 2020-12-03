@@ -1,0 +1,156 @@
+footer {
+    height: 60vh;
+    background-color: #1D252D;
+}
+
+#f-top {
+    height: 45vh;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    width: 17vw;
+    h4      {color: #ffffff; margin-bottom: 2rem;}
+    p       {color: #ffffff; margin-bottom: 2rem;}
+    input   {padding: 0.8rem; width: 10vw; border-radius: 8px 0 0 8px; border: none;}
+    input:focus {outline:none!important; background-color: #eeeeee;}
+    .btn-standard {padding: 0.8rem 1.5rem; border-radius: 0 8px 8px 0;}
+}
+
+.sub {
+    height: 4rem;
+    display: flex;
+}
+
+.explore {
+    width: 17vw;
+    display: flex;
+    flex-direction: column;
+
+    h3 {color: #ffffff; margin-bottom: 2rem;}
+}
+
+.ex-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.links {
+    
+    li  {
+            color: #ffffff; 
+            font-weight: 500; 
+            list-style: none; 
+            margin-bottom: 1rem;
+
+            a   { color: #ffffff;}
+            a:hover {color: #FF6803;}
+        }
+    
+}
+
+.follow {
+
+    h3 {color: #ffffff; margin-bottom: 2rem;}
+}
+
+.icons-social {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    
+}
+
+#icon1 {
+    background-color: #3054A4;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+
+    a {color: #ffffff; font-size: 18pt;} 
+}
+#icon2 {
+    background-color: #55ACEE;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+
+    a {color: #ffffff; font-size: 18pt;}
+}
+#icon3 {
+    background-color: #C42862;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+
+    a {color: #ffffff; font-size: 18pt;}
+}
+#icon4 {
+    background-color: #CD201F;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+
+    a {color: #ffffff; font-size: 18pt;}
+}
+#icon5 {
+    background-color: #BD081C;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+
+    a {color: #ffffff; font-size: 18pt;}
+}
+#icon1:hover {
+    background-color: #3055a479;
+    
+}
+#icon2:hover {
+    background-color: #55acee76;
+  
+}
+#icon3:hover {
+    background-color: #c4286176;
+}
+
+#icon4:hover {
+    background-color: #cd1f1f8b;
+    
+}
+#icon5:hover {
+    background-color: #bd081d78;
+}
+
+
+.phone, .adress {
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+#f-bot {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #ffffff51;
+
+    p {color: #ffffff; margin-top: 1rem;}
+}

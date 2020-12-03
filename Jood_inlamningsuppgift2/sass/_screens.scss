@@ -1,0 +1,136 @@
+.screens {
+    height: 30rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .screens-text {  
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .swiper-container {
+    width: 90vw;
+    height: 15rem;
+  }
+  
+  .swiper-wrapper {
+    width: inherit;
+    height: inherit;
+  }
+  
+  .swiper-slide {
+    background: transparent;
+    opacity: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s linear;
+  }
+  
+  .swiper-slide img {
+    height: 8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .swiper-slide-active {
+    transform: scale(1.2);
+    opacity: 100%;
+  }
+  
+  .swiper-slide-next, .swiper-slide-prev {
+    opacity: 70%;
+    
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: #9A9A9A !important;
+    width: 0.3rem !important;
+    height: 0.3rem !important;
+    margin: 1rem !important;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #1487FD !important;
+  }
+  
+  
+  
+  @media (min-width: 768px) {
+  
+    .screens {
+      height: 30rem;
+    }
+  
+    .swiper-container {
+      width: 70vw;
+      height: 25rem ;
+    }
+  
+  
+    .swiper-slide img {
+      height: 10rem;
+      margin-bottom: 2rem;
+    }
+  
+  }
+  
+  
+  @media (min-width: 1024px) {
+  
+    .screens {
+      height: 37rem;
+    }
+
+    .screens-text {
+        width: 50vw;
+        gap: 1rem;
+      }
+  
+    .swiper-container {
+      width: 70vw;
+      height: 25rem ;
+    }
+  
+  
+    .swiper-slide img {
+      height: 15rem;
+      margin-bottom: 2rem;
+    }
+  
+  }
+  
+  
+  
+  
+  @media (min-width: 1200px) {
+  
+    .screens {
+      height: 80vh;
+    }
+    
+    .screens-text {
+      width: 40vw;
+      gap: 2rem;
+    }
+  
+    .swiper-container {
+      width: 70vw;
+      height: 60vh;
+    }
+  
+    .swiper-slide img {
+      height: 40vh;
+      margin-bottom: 3rem;
+    }
+  
+    .swiper-pagination-bullet {
+      
+      width: 0.8rem !important;
+      height: 0.8rem !important;
+      margin: 1rem !important;
+    }
+    
+  }
+  

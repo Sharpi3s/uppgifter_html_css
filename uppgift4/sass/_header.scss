@@ -1,0 +1,42 @@
+@import "menu";
+@import "header-content";  
+
+header {
+    background-image: url(/images/bg_gray_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#bg-shape {
+    height: 80vh;
+    position: absolute;
+    right: 0;
+    top: 10vh;
+}
+
+#img-placeholder {
+    position: absolute;
+    height: 60vh;
+    right: 0;
+    top: 15vh;
+}
+
+.btn-play {
+    position: absolute;
+    right: 28vw;
+    bottom: 30vh;
+    border: none;
+    border-radius: 50%;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #ffffff;
+    z-index: 1;
+    box-shadow: 0 0 8px 8px #bfb4b43e !important;
+}
+
+.btn-play:hover {
+    box-shadow: 2px 3px 8px #50505097 !important;
+}

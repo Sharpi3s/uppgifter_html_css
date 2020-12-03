@@ -1,0 +1,273 @@
+
+.about {
+    height: 60rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.about-us-content {
+    height: inherit;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_rings {
+    height: 22rem;
+    width: 22rem;
+    position: relative;
+    overflow: hidden;
+}
+
+#rings {
+    height: 18rem;
+    position: absolute;
+    animation: rotate 12s linear infinite;
+}
+
+@keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+#iphone2 {
+    height: 20rem;
+    position: absolute;
+}
+
+
+/* about us text start */
+.about-us-text {
+    position: relative;
+    height: 34rem;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.btn-light-yellow > a {
+    color: #FFBB00 !important;
+    font-size: 11pt;
+}
+
+.btn-light-yellow {
+    background-color: #ffbb0026; 
+    border: 3px solid transparent;
+    padding: 3px;
+    text-align: center;
+    border-radius: 7px;
+    width: 6rem;
+    transition: background-color 0.5s ease-out;
+}
+
+.btn-light-yellow:hover {
+    background-color: transparent;
+    border: 3px solid #FFBB00;
+    transition: 0.5s ease-in;
+}
+
+.about-us-apps {
+    width: 100%;
+    height: 5rem;
+    position: relative;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.play-btn {
+    background-color: #F8F8F8;
+    box-shadow: 3px 3px 6px transparent;
+    border-radius: 10px;
+    width: 42vw;
+    height: 18vw;
+    display: grid;
+    column-gap: 0.7rem;
+    grid-template-areas:    "a b"
+                            "a c"; 
+    transition: all 0.5s ease-in-out;                           
+}
+
+.play-logo {
+    width: 7vw;
+    grid-area: a;
+}
+.play-text1 {
+    grid-area: b;
+    color: #6B6B6B !important;
+    font-size: 10pt !important;
+    text-align: left;
+}
+.play-text2 {
+    grid-area: c;
+    font-size: 14pt !important;
+    color: #111111 !important;
+    font-weight: 600 !important;
+    text-align: left;
+}
+
+.play-btn:hover {
+    box-shadow: 3px 3px 6px #11111182;
+    cursor: pointer;
+}
+/* about us text stop*/
+
+@media (min-width: 768px) {
+
+    .about-us-content {
+        gap: 3rem;
+    }
+    
+    .img_rings {
+        height: 24rem;
+        width: 24rem;
+    }
+    
+    #rings {
+        height: 20rem;
+    }
+
+    #iphone2 {
+        height: 22rem;
+    }
+
+    .about-us-text {
+        height: 32rem;
+        width: 80vw;
+        gap: 2rem;
+    }
+
+    .about-us-apps {
+        height: 5rem;
+        gap: 2rem;
+    }
+    
+    .play-btn {
+        width: 17rem;
+        height: 6rem;
+        column-gap: 2rem;               
+    }
+    
+    .play-logo {
+        width: 2rem;
+    }
+    .play-text1 {
+        font-size: 11pt !important;
+    }
+    .play-text2 {
+        font-size: 20pt !important;
+    }
+}
+
+
+
+@media (min-width: 1024px) {
+
+    .about {
+        height: 42rem;
+    }
+    
+    .about-us-content {
+        height: inherit;
+        flex-direction: row;
+        position: relative;
+    }
+    
+    .img_rings {
+        height: 20rem;
+        width: 24rem;
+    }
+    
+    #rings {
+        height: 18rem;
+    }
+
+    #iphone2 {
+        height: 20rem;
+    }
+
+    .about-us-text {
+        height: 32rem;
+        width: 30rem;
+        gap: 1.5rem;
+    }
+
+    .about-us-apps {
+        height: 5rem;
+        gap: 2rem;
+    }
+    
+    .play-btn {
+        width: 15rem;
+        height: 5rem;
+        column-gap: 1rem;               
+    }
+    
+    .play-logo {
+        width: 2rem;
+    }
+    .play-text1 {
+        font-size: 11pt !important;
+    }
+    .play-text2 {
+        font-size: 20pt !important;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .about {
+        height: 80vh;
+    }
+
+    .about-us-content {
+        justify-content: space-between;
+    }
+
+    .img_rings {
+        height: 70vh;
+        width: 70vh;
+        margin-left: -10vw;
+    }
+
+    #rings {
+        height: 55vh;
+    }
+
+    #iphone2 {
+        height: 60vh;
+    }
+
+    .about-us-text {
+        width: 33vw;
+        gap: 2rem;
+    }
+
+    .btn-light-yellow {
+        padding: 8px 5px;
+        width: 8rem;
+    }
+
+    .about-us-apps {
+        height: 8rem;
+        gap: 4rem;
+    }
+
+    .play-btn {
+        width: 15rem;
+        height: 5.5rem;
+        border-radius: 15px;
+        column-gap: 1rem;               
+    }
+    
+    .play-logo {
+        width: 2em;
+    }
+    .play-text1 {
+        font-size: 0.9em!important;
+    }
+    .play-text2 {
+        font-size: 1.5em !important;
+    }
+
+}

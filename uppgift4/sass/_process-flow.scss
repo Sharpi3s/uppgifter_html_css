@@ -1,0 +1,37 @@
+#process-flow {
+    position: relative;
+    height: 100vh;
+    padding-top: 10vh;
+}
+
+#p-img1 {
+    position: absolute;
+    height: 80vh;
+}
+
+#p-img2 {
+    position: absolute;
+    height: 60vh;
+    top: 10vh;
+    left: 5vw;
+}
+
+.p-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    h2              {width: 22vw; margin-bottom: 3rem;}
+    .p-grid-item    {width: 22vw;}
+}
+
+.p-grid-item {
+    margin-bottom: 2rem;
+    display: grid;
+    column-gap: 1rem;
+    grid-template-areas:    "a b"
+                            ". c";
+
+    .p-1 {grid-area: a; color: #F23779; font-size: 40pt; font-weight: 700; font-family: 'Poppins'; padding: 0 !important; margin: 0 !important;}
+    .p-2 {grid-area: b; margin-top: 1rem !important; padding: 0 !important;}
+    .p-3 {grid-area: c; padding: 0 !important;}
+}

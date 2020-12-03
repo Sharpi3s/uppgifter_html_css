@@ -34,7 +34,42 @@
     padding: 1rem;
     h6      {color: #FF6803;}
     h5      {margin-bottom: 1rem;}
-    button  {display: flex; justify-self: flex-start; align-self: flex-start; margin-top: 0.5rem;}
+    button  {display: flex; justify-self: flex-start; align-self: flex-start; margin-top: 0.5rem; padding: 5px 20px; font-size: 12pt !important;}
 }
 
 
+@media (max-width: 1024px) {
+    #blog {
+        height: 60rem; 
+    }
+    
+    .blog-text {
+
+        h2  {width: 40vw; margin-bottom: 3vh;}
+        p   {width: 50vw; margin-bottom: 5vh;}
+    }
+
+    .card-content {
+        padding: 1rem;
+        h5      {margin-bottom: 1rem; font-size: 16pt !important;}
+    }
+}
+
+
+@media (max-width: 768px) {
+
+}
+
+
+@media (max-width: 500px) {
+    #blog {
+        height: 53rem; 
+    }
+    
+    .blog-text {
+
+        h2  {width: 80vw; margin-bottom: 1rem;}
+        p   {width: 90vw; margin-bottom: 1.5rem;}
+    }
+
+}

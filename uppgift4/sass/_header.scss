@@ -40,3 +40,80 @@ header {
 .btn-play:hover {
     box-shadow: 2px 3px 8px #50505097 !important;
 }
+
+@media (max-width: 1024px) {
+    header {
+        height: 50rem;
+        overflow: hidden;
+    }
+
+    #bg-shape {
+        height: 35rem;
+    }
+    
+    #img-placeholder {
+        height: 30vh;
+        right: 0;
+        top: 15vh;
+    }
+    
+    .btn-play {
+        right: 20rem;
+        bottom: 13rem;
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+    
+}
+
+
+@media (max-width: 768px) {
+    header {
+        height: 40rem;
+        overflow: hidden;
+    }
+
+    #bg-shape {
+        height: 28rem;
+    }
+    
+    #img-placeholder {
+        height: 20rem;
+        right: 0;
+        top: 15vh;
+    }
+    
+    .btn-play {
+        right: 17rem;
+        bottom: 12rem;
+        height: 3rem;
+        width: 3rem;
+    }
+}
+
+
+@media (max-width: 500px) {
+    header {
+        height: 40rem;
+        overflow: hidden;
+    }
+
+    #bg-shape {
+        height: 22rem;
+    }
+    
+    #img-placeholder {
+        height: 15rem;
+        right: 0;
+        top: 8rem;
+    }
+    
+    .btn-play {
+        right: 12rem;
+        bottom: 18rem;
+        height: 2.5rem;
+        width: 2.5rem;
+
+        i {font-size: 11pt !important;}
+    }
+}

@@ -4,7 +4,35 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 10vh;
+    margin-bottom: 10rem;
 
     h3 {color: #ffffff; width: 35vw;}
+}
+
+
+
+@media (max-width: 1024px) {
+    .cta-bg {
+        height: 12rem;
+    
+        h3 {color: #ffffff; width: 60vw;}
+    }
+}
+
+
+@media (max-width: 768px) {
+    .cta-bg {
+        height: 10rem;
+    
+        h3 {color: #ffffff; width: 58vw;}
+    }
+}
+
+
+@media (max-width: 500px) {
+    .cta-bg {
+        height: 8rem;
+        margin-bottom: 5rem;
+        h3 {color: #ffffff; width: 60vw;}
+    }
 }

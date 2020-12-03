@@ -1,30 +1,32 @@
 #testimonial {
     position: relative;
-    height: 70vh;
+    height: 40rem;
     margin-bottom: 10rem;
     margin-top: 5rem;
 
     #t-img-holder {
         position: absolute;
+        left: -0.5rem;
+        height: 27rem;
     }
 
     .t-text {
         position: absolute;
         width: 22vw;
         right: 0;
-        top: 5vh;
+        top: 5rem;
     }
 }
 
 #dots {
     position: absolute;
-    left: 20vw;
+    left: 25rem;
     bottom: -1rem;
 }
 
 .swiper1 {
     position: absolute;
-    right: 5vw;
+    right: 4rem;
     bottom: 1vh;
     width: 32vw;
     height: 20rem;
@@ -40,7 +42,6 @@
     flex-direction: column;
     justify-content: center;
     padding: 3rem;
-   
 }
 
 .swp1{
@@ -63,4 +64,133 @@
 .t-3 {
     color: #ffffff;
     font-style: italic;
+}
+
+
+@media (max-width: 1024px) {
+    #testimonial {
+        height: 30rem;
+        margin-bottom: 10rem;
+        margin-top: 5rem;
+    
+        #t-img-holder {
+            height: 22rem;
+        }
+    
+        .t-text {
+            position: absolute;
+            width: 30vw;
+            right: 0;
+            top: 0rem;
+        }
+    }
+    
+    #dots {
+        position: absolute;
+        left: 22rem;
+        bottom: -1rem;
+    }
+
+    .swiper1 {
+        position: absolute;
+        right: 0;
+        bottom: 1vh;
+        width: 35rem;
+        height: 18rem;
+    }
+    
+    .swp1{
+        margin-left: 12.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #testimonial {
+        height: 30rem;
+        margin-bottom: 10rem;
+        margin-top: 5rem;
+    
+        #t-img-holder {
+            height: 18rem;
+        }
+    
+        .t-text {
+            width: 40vw;
+            right: 0;
+            top: 0rem;
+        }
+    }
+    
+    #dots {
+        left: 7rem;
+    }
+
+    .swiper1 {
+        position: absolute;
+        right: 0;
+        bottom: 1vh;
+        width: 35rem;
+        height: 18rem;
+    }
+    
+    .swp1{
+        margin-left: 13rem;
+    }
+}
+
+@media (max-width: 500px) {
+    #testimonial {
+        height: 30rem;
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    
+        #t-img-holder {
+            height: 10rem;
+            top: 10rem;
+            left: 1rem;
+        }
+    
+        .t-text {
+            width: 80vw;
+            left: 1rem;
+            top: 0rem;
+        }
+    }
+    
+    #dots {
+        left: 2rem;
+        height: 5rem;
+    }
+
+    .swiper1 {
+        position: absolute;
+        right: 1rem;
+        bottom: 1vh;
+        width: 18rem;
+        height: 10rem;
+    }
+    
+    .slide-1 {
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .t-1 {
+        margin-top: -0.8rem;
+    }
+    .t-2 {
+        color: #ffffff;
+    }
+    .t-3 {
+        width: 15rem;
+        margin-top: -0.7rem;
+    }
+
+    .swp1{
+        margin-left: 7rem;
+        width: 20vw !important;
+    }
 }

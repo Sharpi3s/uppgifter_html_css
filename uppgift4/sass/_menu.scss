@@ -2,6 +2,13 @@
     box-shadow: none;
     border-bottom: 1px solid #57647c42;
     height: 5rem;
+    background-color: #F8F9FE !important;
+}
+
+#navbarNav {
+ background-color: #F8F9FE !important;
+ z-index: 2;
+ 
 }
 
 .navbar-brand > img {
@@ -26,4 +33,31 @@
     background-color: transparent !important;
     font-weight: 700;
     font-size: 10pt !important;
+}
+
+
+@media (max-width: 1024px) {
+    .navbar-brand > img {
+        height: 1.8rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navbar-brand > img {
+        height: 1.5rem;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .navbar-brand > img {
+        height: 1.2rem;
+    }
+
+    .navbar {
+        box-shadow: none;
+        border-bottom: 1px solid #57647c42;
+        height: 3rem;
+    }
 }

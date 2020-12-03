@@ -72,17 +72,16 @@
     height: 5rem;
     position: relative;
     flex-direction: row;
-    gap: 1rem;
 }
 
 .play-btn {
     background-color: #F8F8F8;
     box-shadow: 3px 3px 6px transparent;
     border-radius: 10px;
-    width: 42vw;
+    width: 10rem;
     height: 18vw;
+    margin-right: 0.7rem;
     display: grid;
-    column-gap: 0.7rem;
     grid-template-areas:    "a b"
                             "a c"; 
     transition: all 0.5s ease-in-out;                           
@@ -90,6 +89,7 @@
 
 .play-logo {
     width: 7vw;
+    margin-right: 0.5rem;
     grid-area: a;
 }
 .play-text1 {

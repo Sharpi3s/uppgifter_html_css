@@ -21,23 +21,21 @@ header {
     height: 3rem;
 }
 
-#JOOD {
-    font-family: 'Poppins' !important;
-}
 /* menu stop */
 
 /* content start */
 
 .showcase {
-    height: 95vh;
+    height: 45rem;
 }
 
 .showcase-content {
-    height: 40vh;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    height: 17rem;
     width: 100%;
     flex-direction: column;
-    justify-content: center;
-    gap: 1.5rem; 
+    justify-content: space-between;
 }
 
 .showcase-content > p {
@@ -47,7 +45,6 @@ header {
 
 .download {
     flex-direction: row;
-    gap: 1.5rem;
     color: white;
 }
 
@@ -64,6 +61,7 @@ header {
     text-align: center;
     border-radius: 12px;
     transition: background-color 0.5s ease-out;
+    margin-right: 1.5rem;
     }
 
 .button2:hover {
@@ -73,7 +71,6 @@ header {
 }
 
 .watch-link {
-    gap: 1.2rem;
     text-align: center;
     height: 2.5rem;
     padding-right: 0.5em;
@@ -81,6 +78,8 @@ header {
     border-radius: 45px;
     box-shadow: 0 0 8px 2px transparent;
     transition: 0.5s ease-in-out !important;
+
+    img {margin-right: 1.2rem;}
 }
 
 .watch-link:hover {
@@ -157,7 +156,7 @@ header {
 .ec {
     position: relative;
     width: 100%;
-    height: 20vw;
+    height: 4rem;
 }
 
 .ec-logo-img1:first-child, .ec-logo-img1:last-child {
@@ -430,6 +429,7 @@ header {
 
     .showcase-content {
         height: 85vh;
+        justify-content: center;
         gap: 2rem;
         margin-top: -10vh;
     }

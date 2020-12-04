@@ -47,7 +47,7 @@ h4 {
 
 p {
     font-size: 12pt;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 a {
@@ -179,7 +179,8 @@ a.fab:hover {
 
 /* About start */
 .about {
-    height: 34rem;
+    height: 38rem;
+    position: relative;
 }
 
 .about-content {
@@ -192,7 +193,7 @@ a.fab:hover {
     flex-direction: column;
 }
 
-.about-content h2, hr, p {
+.about-content hr, p {
     margin-bottom: 1.5rem;
 }
 
@@ -204,7 +205,7 @@ a.fab:hover {
     height: 2px;
     width: 100%;
     background-color: #25e6c8;
-    margin-bottom: 2vh;
+    margin-top: 0.5rem;
 }
 
 .about-numbers {
@@ -214,6 +215,7 @@ a.fab:hover {
 .numbers {
     color: #2baaec;
     font-size: 18pt;
+    margin-bottom: 0;
 }
 
 .about-numbers-section > p {
@@ -223,7 +225,7 @@ a.fab:hover {
 #image2 {
     z-index: 1;
     height: 30rem;
-    margin-top: 2.2rem;
+    bottom: 0;
     position: absolute;
     opacity: 30%;
 }
@@ -248,6 +250,7 @@ a.fab:hover {
     height: 4px;
     width: 14rem;
     margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
     background-color: #25e6c8;
 }
 
@@ -265,13 +268,17 @@ a.fab:hover {
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding: 1.5rem;
+    padding: 1rem 2rem;
     border-radius: 5%;
     transition: box-shadow 0.8s ease-out;
 }
 
 .card h4 {
     margin-bottom: 1rem;
+}
+
+.card > p {
+    font-size: 10pt;
 }
 
 .circle {
@@ -574,6 +581,7 @@ footer > p {
     
     p {
         font-size: 14pt;
+        line-height: 1.8;
     }
     
     a {
@@ -597,6 +605,7 @@ footer > p {
 
     .start-top > p {
         font-size: 12pt;
+        margin-bottom: 0;
     }
 
     .icons {
@@ -671,7 +680,7 @@ footer > p {
 
     .numbers {
         color: #2baaec;
-        font-size: 20pt;
+        font-size: 28pt;
     }
     
     .about-numbers-section > p {
@@ -705,7 +714,7 @@ footer > p {
     .card {
         min-height: 24vw;
         min-width: 22vw;
-        padding: 2rem;
+        padding: 1rem 2.5rem;
     }
     .card h4 {
         margin-bottom: 1.5rem;
@@ -716,7 +725,8 @@ footer > p {
     }
 
     .card > p {
-        font-size: 12pt;
+        font-size: 1vw;
+        line-height: 1.5;
     }
     /* services stop*/
 

@@ -42,8 +42,12 @@
 .about-us-text {
     position: relative;
     height: 34rem;
+    width: 100%;
     flex-direction: column;
-    gap: 1.5rem;
+
+    button  {margin-bottom: 1.5rem;}
+    h3      {margin-bottom: 1.5rem !important;}
+
 }
 
 .btn-light-yellow > a {
@@ -70,6 +74,8 @@
 .about-us-apps {
     width: 100%;
     height: 5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
     position: relative;
     flex-direction: row;
 }

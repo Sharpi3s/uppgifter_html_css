@@ -81,12 +81,13 @@ hr {
 
 .icons {
     justify-content: center;
-    gap: 1rem;
 }
 
 a.fab {
     height: 1.2rem;
     color: #2baaec;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     }
 
 a.fab:hover {

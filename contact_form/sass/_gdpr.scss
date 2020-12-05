@@ -1,6 +1,6 @@
 .bg2 {
     background-image: url(../images/bg-sky.png);
-    height: 100vh;
+    height: 52rem;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -19,8 +19,8 @@
 
     .text {
         width: 90vw;
-        height: 75vh;
-        padding: 0.5rem;
+        height: 35rem;
+        padding: 0.8rem;
         border-radius: 6px;
         overflow: auto;
         text-align: left;
@@ -47,10 +47,15 @@
 }
 
 @media (min-width: 768px) {
+    .bg2 {
+        height: 100vh;
+    }
     .content1 {
         .text {
             margin-top: 2rem;
             width: 70vw;
+            height: 70vh;
+            padding: 2rem;
         }
     }
 }
@@ -62,12 +67,15 @@
         .text {
             margin-top: 2rem;
             width: 70vw;
-            height: 70vh;
+            height: 65vh;
         }
     }
 }
 @media (min-width: 1200px) {
     .content1 {
+        h1 {
+            font-size: 28pt;
+        }
         .text {
             margin-top: 2rem;
             width: 40vw;

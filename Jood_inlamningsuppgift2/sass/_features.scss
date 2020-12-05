@@ -168,7 +168,7 @@
     @media (min-width: 1200px) {
 
         .features {
-            height: 50rem;
+            height: 52rem;
         }
 
         .features-content-img-text {
@@ -183,6 +183,9 @@
         .features-content-b-h1-p {
             gap: 1rem;
             width: 32vw;
+
+            h3 {margin-bottom: 0 !important;}
+            
         }
 
         .features-content-icons {

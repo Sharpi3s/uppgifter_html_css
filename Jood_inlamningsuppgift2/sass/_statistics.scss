@@ -95,13 +95,14 @@
     }
     
     .statistics-text {
-        gap: 2rem;
+        z-index: 1;
     }
     
     .s-text {
         width: 40vw;
-        gap: 2rem;
+        gap: 1rem;
     }
+
     .s-numbers-text {
         width: 12rem;
         height: 8rem;

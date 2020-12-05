@@ -1,0 +1,18 @@
+$lightpurple:     #62598A; 
+$purple:          #3b3757;
+$lightgrey:       #cccccc;
+$grey:            #b8a8ada8;
+$shadow:          #00000063;
+$light:           #ffffff;
+
+$primary:           $lightpurple;
+$secondary:         $purple;
+
+$colors: (
+    "light-purple": $lightpurple,
+    "purple":       $purple,
+    "light-grey":   $lightgrey,
+    "grey":         $grey,
+    "shadow":       $shadow,
+    "white":        $light
+);

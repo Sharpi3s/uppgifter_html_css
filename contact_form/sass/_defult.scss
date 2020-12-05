@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    font-family: $font-primary;
+}
+
+h1 {
+    font-family: $font-secondary;
+    color: $light;
+    font-size: 22pt;
+}
+
+h2 {
+    font-family: $font-primary;
+    color: $light;
+    font-size: 14pt;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+hr {
+    height: 1px;
+    width: 100%;
+    background-color: $secondary;
+    margin-top: 0;
+}
+
+a {
+    color: $secondary;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: $lightgrey;
+}
+
+
+
+.bg {
+    background-image: url(../images/bg-sky.png);
+    height: 70rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn-defult {
+    background-color: $primary;
+    color: $light;
+    box-shadow: 3px 3px 7px $shadow;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 30px;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-defult:hover {
+    background-color: $secondary;
+}
+
+
+
+@media (min-width: 1024px) {
+    .bg {
+        height: 100vh;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .bg {
+        height: 100vh;
+    }
+
+    h1 {
+        font-size: 28pt;
+    }
+
+    h2 {
+        font-size: 18pt;
+    }
+
+    hr {
+        height: 1px;
+        width: 100%;
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,218 @@
+#reg {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+
+    .banner-content {
+        position: relative;
+        height: 7rem;
+
+        .banner {
+            height: 6rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .banner-text {
+            position: absolute;
+            width: 100%;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -60%);
+        }
+    }
+    
+
+    .reg-content {
+        background-color: $grey;
+        border-radius: 6px;
+        box-shadow: 1px 3px 10px $shadow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .form-group {
+            margin: 0.8rem 0rem;
+        
+            
+            input:focus + .input-label .label-content,
+            input:valid + .input-label .label-content {
+                transform: translateY(-170%); 
+                font-size: 0.8rem; 
+                color: $secondary;
+            }
+            input:focus + .input-label::after,
+            input:valid + .input-label::after {
+                transform: translateX(0%);
+            } 
+            input[type='number'] {
+                -moz-appearance:textfield;
+            }    
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+            }
+        
+            .form-control:focus {
+                border: 1px solid $primary;
+                outline: none !important;
+                box-shadow: 2px 3px 8px $shadow;
+            }
+        
+            label {
+                position: absolute;
+                bottom: -4px;
+                left: 0px;
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+        
+                .label-content {
+                    position: absolute;
+                    bottom: 5px;
+                    left: 10px;
+                    transition: all 0.3s ease;
+                    color: $primary;
+                }
+            } 
+        }   
+    
+        .align {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0;
+    
+            label {
+                padding: 0.5rem 0 0 0.5rem;
+                line-height: 1.2;
+            }
+        } 
+    }
+
+    .r4 {
+        margin-bottom: 2rem;
+    }
+
+    .r5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        img {
+            height: 4rem;
+            margin-left: 0.8rem;
+        }
+        h2 {
+            font-size: 18pt;
+            margin-left: 1rem;
+        }
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    #reg {
+        width: 80vw;
+       
+        .banner-content {
+            margin-bottom: 1rem;
+
+            .banner {
+                height: 8rem;
+            }
+            .banner-text {
+                font-size: 28pt;
+            }
+        }
+    }  
+
+}
+
+
+@media (min-width: 1024px) {
+
+    #reg {  
+       height: 100vh;
+    }  
+
+}
+
+@media (min-width: 1200px) {
+
+    #reg {
+        width: 70rem;
+        height: 100vh;
+       
+        .banner-content {
+            margin-bottom: 1.5rem;
+            
+
+            .banner {
+                height: 8rem;
+            }
+            .banner-text {
+                width: 30vw;
+            }
+        }
+
+        .form {
+            height: 35rem;
+            width: 70rem;
+            justify-content: center;
+            display: grid;
+            grid-template-areas:    "a b"
+                                    "a c"
+                                    "e d";
+            .r1 {
+                width: 30rem;
+                grid-area: a;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .r2 {
+                width: 30rem;
+                grid-area: b;
+                margin-left: auto;
+                
+            }
+            .r3 {
+                width: 30rem;
+                grid-area: c;
+                margin-left: auto;
+                
+            }
+            .r4 {
+                width: 33rem;
+                grid-area: d;
+                margin-top: 1rem;
+                margin-left: auto;
+                margin-bottom: 1rem;
+
+                .form-check {
+                    padding-left: 3rem;
+                }
+            }
+
+            .r5 {
+                grid-area: e;
+                justify-content: flex-start;
+
+                img {
+                    height: 8rem;
+                    margin-left: 0.8rem;
+                }
+                h2 {
+                    font-size: 26pt;
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }  
+
+}

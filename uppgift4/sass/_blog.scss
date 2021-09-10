@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #blog {
     display: flex;
     flex-direction: column;
@@ -80,3 +81,87 @@
     }
 
 }
+=======
+#blog {
+    display: flex;
+    flex-direction: column;
+    height: 60rem;
+    
+}
+
+.blog-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    h2  {width: 35rem; margin-bottom: 3vh;}
+    p   {width: 28rem; margin-bottom: 5vh;}
+}
+
+
+.swiper2 {
+    width: 100%;
+    height: 36rem;
+    margin-right: 1rem;
+    position: relative;
+}
+
+.slide-2 {
+    width: 10rem;
+    height: 33rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 3px 6px #8586873d; 
+    overflow: hidden;
+}
+
+.card-content {
+    padding: 1rem;
+    h6      {color: #FF6803;}
+    h5      {margin-bottom: 1rem;}
+    button  {display: flex; justify-self: flex-start; align-self: flex-start; margin-top: 0.5rem; padding: 5px 20px; font-size: 12pt !important;}
+}
+.swp2{
+    position: absolute;
+    top: 0;
+    // top: 2000px;
+}
+
+
+@media (max-width: 1024px) {
+    #blog {
+        height: 60rem; 
+    }
+    
+    .blog-text {
+
+        h2  {width: 40vw; margin-bottom: 3vh;}
+        p   {width: 50vw; margin-bottom: 5vh;}
+    }
+
+    .card-content {
+        padding: 1rem;
+        h5      {margin-bottom: 1rem; font-size: 16pt !important;}
+    }
+}
+
+
+@media (max-width: 768px) {
+
+}
+
+
+@media (max-width: 500px) {
+    #blog {
+        height: 53rem; 
+    }
+    
+    .blog-text {
+
+        h2  {width: 80vw; margin-bottom: 1rem;}
+        p   {width: 90vw; margin-bottom: 1.5rem;}
+    }
+
+}
+>>>>>>> b8b851b45f29461d8b24bfaed7b8086c6943748b

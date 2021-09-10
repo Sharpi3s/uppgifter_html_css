@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .cta-bg {
     background-image: url(/images/Bg_cta.png);
     height: 12rem;
@@ -37,4 +38,45 @@
         margin-bottom: 5rem;
         h3 {color: #ffffff; width: 60vw;}
     }
+=======
+.cta-bg {
+    background-image: url(/images/Bg_cta.png);
+    height: 12rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10rem;
+
+    h3 {color: #ffffff; width: 40rem;}
+}
+
+
+
+@media (max-width: 1024px) {
+    .cta-bg {
+        height: 12rem;
+    
+        h3 {color: #ffffff; width: 60vw;}
+    }
+}
+
+
+@media (max-width: 768px) {
+    .cta-bg {
+        height: 10rem;
+    
+        h3 {color: #ffffff; width: 58vw;}
+    }
+}
+
+
+@media (max-width: 500px) {
+    .cta-bg {
+        flex-direction: column;
+        height: 8rem;
+        margin-bottom: 5rem;
+        h3 {color: #ffffff; width: 60vw;}
+    }
+>>>>>>> b8b851b45f29461d8b24bfaed7b8086c6943748b
 }

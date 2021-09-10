@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #logos {
     height: 40vh;
     align-items: center;
@@ -41,4 +42,49 @@
     .logo {
         height: 1rem;
     }
+=======
+#logos {
+    height: 40vh;
+    align-items: center;
+}
+
+.logo {
+    height: 3rem;
+    filter: grayscale(100%);
+}
+
+@media (max-width: 1024px) {
+    #logos {
+        height: 15rem;
+        align-items: center;
+    }
+    
+    .logo {
+        height: 2rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #logos {
+        height: 15rem;
+        align-items: center;
+    }
+    
+    .logo {
+        height: 1.8rem;
+    }
+}
+
+
+@media (max-width: 500px) {
+    #logos {
+        height: 12rem;
+        align-items: center;
+    }
+    
+    .logo {
+        height: 1rem;
+    }
+>>>>>>> b8b851b45f29461d8b24bfaed7b8086c6943748b
 }

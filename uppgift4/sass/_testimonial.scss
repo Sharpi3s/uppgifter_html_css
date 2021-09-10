@@ -33,7 +33,7 @@
     width: 40rem;
     height: 21rem;
     display: flex;
-    background-image: url(../images/orange_bg.png);
+    background-image: url(/images/orange_bg.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -154,31 +154,27 @@
         }
     
         .t-text {
-            width: 70vw;
-            left: 0;
-            right: 0;
-            margin: auto;
-            top: auto;
-            text-align: center;
-            
+            width: 80vw;
+            left: 1rem;
+            top: 0rem;
 
-            h2 {width: 70vw;}
-            p {width: 70vw;}
+            p {
+                width: 70vw;
+            }
         }
     }
     
     #dots {
         left: 2rem;
-        bottom: 2rem;
         height: 5rem;
     }
 
     .swiper1 {
         position: absolute;
         right: 1rem;
-        bottom: 2rem;
+        bottom: 1vh;
         width: 18rem;
-        height: 10.5rem;
+        height: 10rem;
     }
     
     .slide-1 {

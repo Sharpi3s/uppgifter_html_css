@@ -15,7 +15,6 @@
 //     },
 //   });
 
-
 var swiper = new Swiper('.swiper1', { 
 	autoplay:true, 
     pagination: {
@@ -42,23 +41,40 @@ var swiper2 = new Swiper('.swiper2', {
     },
     
     breakpoints: {
-        640: {
+        "@0.00": {
             slidesPerView: 1,
             slidesPerGroup: 1,
             spaceBetween: 20,
         },
 
-        768: {
+        "@0.75": {
             slidesPerView: 2,
             slidesPerGroup: 2,
             spaceBetween: 40,
         },
 
-        1024: {
+        "@1.50": {
             slidesPerView: 3,
             slidesPerGroup: 3,
             spaceBetween: 40,
         }
+        // 640: {
+        //     slidesPerView: 1,
+        //     slidesPerGroup: 1,
+        //     spaceBetween: 20,
+        // },
+
+        // 768: {
+        //     slidesPerView: 2,
+        //     slidesPerGroup: 2,
+        //     spaceBetween: 40,
+        // },
+
+        // 1024: {
+        //     slidesPerView: 3,
+        //     slidesPerGroup: 3,
+        //     spaceBetween: 40,
+        // }
     }
 
 }); 
